@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <style>
+        .custom-img {
+            max-width: 450px;
+            height: auto;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <a class="navbar-brand text-white" href="index.html">My Portfolio</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link text-light" href="index.html">Home</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle text-light" href="#" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        More Info
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="personal.html">Personal Information</a>
+                        <a class="dropdown-item" href="family.html">Family</a>
+                        <a class="dropdown-item" href="gallery.html">Gallery</a>
+                        <a class="dropdown-item" href="hobby.html">Hobbies</a>
+                        <a class="dropdown-item" href="friends.html">Friends</a>
+                        <a class="dropdown-item" href="education.html">Education</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container mt-4">
+        <div class="row">
+            <!-- Welcome Section -->
+            <section id="welcome" class="card mb-3 col">
+                <div class="card-body">
+                    <h3 class="card-title">Welcome to my space!</h3>
+                    <p class="card-text">Hi there! I'm Zaiyani Zarli, a student from the College of Computing,
+                        Informatics,
+                        and Mathematics at UiTM Merbok.</p>
+                </div>
+            </section>
+
+            <!-- Introduction Section -->
+            <section id="introduction" class="card mb-3 col">
+                <div class="card-body">
+                    <h3 class="card-title">Introducing myself to the world</h3>
+                    <p class="card-text">Welcome! Let's connect together.</p>
+                </div>
+            </section>
+
+            <!-- About Section -->
+            <section id="about" class="card mb-3 col">
+                <div class="card-body">
+                    <h3 class="card-title">About Zaiyani: a university student</h3>
+                    <p class="card-text">My family and our strong bonds.</p>
+                </div>
+            </section>
+            <section id="friends" class="card mb-3 col">
+                <div class="card-body">
+                    <h3 class="card-title">Friends throughout my journey in life</h3>
+                    <p class="card-text">My adorable feline companions.</p>
+                </div>
+            </section>
+        </div>
+
+        <!-- Gallery Section -->
+        <section id="gallery" class="card mb-3 col text-center">
+            <div class="card-body">
+                <h3 class="card-title">Capturing Golden Hours: through my gallery</h3>
+                <p class="card-text">My passion for books and musics.</p>
+                <img src="assets/imgs/personal2.jpg" alt="Flowers" class="img-fluid custom-img">
+            </div>
+        </section>
+    </div>
+
+</body>
+
+</html>
